@@ -6,6 +6,7 @@ over the rcon protocol.
 
 
 Functions:
+
     connect
         Attempts to connect to the server - returns a connection object or
         False
@@ -27,6 +28,7 @@ Functions:
 
 
 Example usage:
+
     Simple prompt
         connection = rconbf3.connect("IP", <port>)
         rconbf3.start_update(connection)
